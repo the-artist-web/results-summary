@@ -268,15 +268,18 @@ body {
     box-shadow: 35px 35px 110px -100px black;
     border-radius: 30px;
     display: grid;
-    width: 750px;
+    width: 800px;
     gap: 0px;
   }
   .results-summary .results-summary-box1 {
-    padding: 40px 50px;
+    padding: 60px;
     border-radius: 30px;
     width: 100%;
   }
-  .results-summary .results-summary-box1 .pTitle { margin-bottom: 30px; }
+  .results-summary .results-summary-box1 .pTitle { 
+    margin-bottom: 30px; 
+    font-size: 1.2rem;
+  }
 
   .results-summary .results-summary-box1 .results-summary-circles {
     height: 170px;
@@ -284,9 +287,11 @@ body {
     margin-bottom: 45px;
   }
   .results-summary .results-summary-box1 .results-summary-circles h1 { font-size: 3.2rem; }
+
+  .results-summary .results-summary-box1 .results-summary-content h2 { font-size: 1.8rem; }
   
   .results-summary .results-summary-box2 {
-    padding: 40px 40px;
+    padding: 50px 40px;
     display: grid;
     gap: 20px;
   }
